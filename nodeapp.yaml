@@ -1,0 +1,10 @@
+apiVersion : v1
+kind: Pod
+metadata:
+  name: node
+spec:
+  containers:
+    - name : nodeapp
+      image: freedbka/nodeapp:latest
+      ports:
+        - containerPort: 3000
