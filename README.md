@@ -1,6 +1,7 @@
 # nodeapp
 test_task
-
+docker build -t freedbka/nodeapp:latest . # Создаем контейнер  
+docker push freedbka/nodeapp:latest # пушим на докерхаб  
 vim nodeapp.yaml  #Создаем Deployment файл
 ```
 apiVersion : v1
